@@ -29,19 +29,22 @@ background: linear-gradient(47deg, rgba(255,255,255,1) 0%, rgba(241,65,74,1) 85%
     padding-bottom: auto;
 }
 .currency{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* flex-direction: row; */
     align-items: center;
-    justify-content: space-evenly;
+    justify-items: center;
     height: 30vh;
 }
-
+.currency-first, .currency-second{
+    justify-items: unset !important;
+}
 input{
     font-family: inherit;
     border:0;
     border-bottom: 2px solid gray;
     background: transparent;
-    margin: 4vh;
+    margin: 4vh 0vh 4vh 4vh;
     font-size: 5vh;
     width: 40%;
     outline: 0;  
@@ -55,13 +58,13 @@ input::-webkit-inner-spin-button {
 
 select {
     font-size: 2.4vh;
+    /* text-align: center; */
     font-family: inherit;
-    appearance: none;
     outline: 0;
     border: 0;
     box-shadow: none;
     flex: 1;
-    padding: 0 1em;
+    padding: 0 4em 0 0  ;
     color: black;
     background: none;
     cursor: pointer;
