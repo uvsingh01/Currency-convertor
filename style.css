@@ -2,27 +2,17 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 3vh;
-    /* height:80vh; */
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: none;
-    padding: none;
-    box-sizing: border-box;
     background: rgb(118,200,212);
     background: linear-gradient(301deg, rgba(118,200,212,1) 8%, rgba(241,65,74,1) 96%);
 }
 
-main{
-    padding: 0vw 7vw 13.6vw; 
-}
-h1{
-    margin-top: 0%;
-}
 .container{
     display: grid;
-    height: 90%;
-    grid-template-rows: repeat(2,1fr);
+    /* grid-template-rows: repeat(2,1fr); */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -36,6 +26,7 @@ background: linear-gradient(47deg, rgba(255,255,255,1) 0%, rgba(241,65,74,1) 85%
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: white;
+    padding-bottom: auto;
 }
 .currency{
     display: flex;

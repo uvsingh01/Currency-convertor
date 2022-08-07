@@ -2,7 +2,7 @@ const currencyOne= document.getElementById('currency-first');
 const currencyTwo= document.getElementById('currency-second');
 const amountOne = document.getElementById('amount-first');
 const amountTwo = document.getElementById('amount-second');
-
+const swap = document.getElementById('button');
 const url = "https://v6.exchangerate-api.com/v6/85d74a9472487e7551d8fbc8/latest/"
 function calculateOne(){
     const currencyOneValue = currencyOne.value;
@@ -38,4 +38,3 @@ swap.addEventListener('click', ()=> {
     currencyTwo.value = temp;
     calculateOne();
   })
-// calculateOne();
