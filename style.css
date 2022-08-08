@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    text-align: center;
     font-size: 3vh;
     height:100vh;
     display: flex;
@@ -72,7 +73,7 @@ select {
     font-size: 5vh;
 }
 
-@media(max-width:350px){
+@media(max-width:550px){
     .currency{
         grid-template-columns: unset;
     }
