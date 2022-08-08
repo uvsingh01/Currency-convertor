@@ -3,7 +3,7 @@ const currencyTwo= document.getElementById('currency-second');
 const amountOne = document.getElementById('amount-first');
 const amountTwo = document.getElementById('amount-second');
 const swap = document.getElementById('button');
-const url = "https://v6.exchangerate-api.com/v6/85d74a9472487e7551d8fbc8/latest/";
+const url = "https://v6.exchangerate-api.com/v6/eb85eca93976682d07c0bd3d/latest/";
 
 function calculate(data1,data2,amount1,amount2){
     fetch(`${url}${data1}`)
